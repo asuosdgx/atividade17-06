@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(228, 231, 230);
+    background: radial-gradient(circle, rgb(132, 97, 197) 31%, rgb(70, 127, 192) 95%);
+    font-family: Patrick Hand SC;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+#cabecalho{
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+    
+}
+#cabecalho:hover{
+    letter-spacing: 5px;
+    color: darkblue;
+}
+.box{
+    border: 2px double blue;
+    padding: 100px;
+    margin: auto;
+    box-shadow: -5px 2px 100px 1px blue;
+}
+.butt{
+    width: 120px;
+    height: 50px;
+    position: relative;
+    left: 500px;
+    top: 80px;
+    font-size: 1rem;
+}
+.but1{
+    background-color: chartreuse;
+    letter-spacing: 1px;
+    font-style: oblique;
+}
+.but2{
+    background-color: tomato;
+    font-weight: 900;
+    text-decoration: overline;
+
+}
+p{
+    text-shadow: 1px 1px greenyellow;
+}
+.but3{
+    background: linear-gradient(45deg, red, yellow);
+    letter-spacing: 0.25px;
+    box-shadow: 0 0 15px red; 
+}
+.but4{
+    background-color: black;
+    color: bisque;
+    box-shadow: 0 0 25px rgb(255, 0, 43);
+}
+
